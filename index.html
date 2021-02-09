@@ -10,6 +10,12 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/wow.js"></script>
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 
 
 </head>
@@ -21,9 +27,9 @@
       <h1 class=" text-white text-uppercase text-center">Material Educativo</h1>
       <br>
       <div class="row">
-        <div class="col-6 mx-auto d-block">
-          <div class="card mb-5 mb-5-lg-0  ">
-            <div class="card-body text-center">
+        <div class=" ">
+          <div class="card mb-5 center-block wow  animate__animated  animate__bounceInUp" data-wow-delay="0.8s">
+            <div class="card-body text-center" >
               <img src="./img/fot.jfif" alt="foto" width="300" class="img-responsive ">
               <h5 class="card-title text-muted text-uppercase text-center">Alejandra Alvarez díaz</h5>
               <hr>
@@ -40,7 +46,7 @@
       <div class="row">
         <!-- Free Tier -->
         <div class="col-lg-4">
-          <div class="card mb-5 mb-lg-0">
+          <div class="card mb-5 mb-lg-0 wow  animate__animated animate__fadeInLeft" data-wow-delay="0.6s">
 
             <div class="card-body">
               <h5 class="card-title text-muted text-uppercase text-center">Importancia de la caligrafía para los niños
@@ -60,7 +66,7 @@
         </div>
         <!-- Plus Tier -->
         <div class="col-lg-4">
-          <div class="card mb-5 mb-lg-0">
+          <div class="card mb-5 mb-lg-0 wow  animate__animated animate__fadeIn" data-wow-delay="0.6s">
             <div class="card-body">
               <h5 class="card-title text-muted text-uppercase text-center">De la mano a la mente</h5>
               <img src="./img/Caligrafia_605_1.png" alt="foto" width="300" class="img-responsive">
@@ -76,7 +82,7 @@ Según un reciente estudio en el cual se utilizó resonancia magnética, la acti
         </div>
         <!-- Pro Tier -->
         <div class="col-lg-4">
-          <div class="card">
+          <div class="card wow  animate__animated animate__fadeInRight" data-wow-delay="0.6s">
             <div class="card-body">
               <h5 class="card-title text-muted text-uppercase text-center">Formación de las letras</h5>
               <h6 class="card-price text-center"> <span class="period"></span></h6>
@@ -103,7 +109,7 @@ Algunos estudios han sugerido que aquellos niños que no forman las letras debid
       <div class="row">
         <!-- Free Tier -->
         <div class="col-lg-4">
-          <div class="card mb-5 mb-lg-0">
+          <div class="card mb-5 mb-lg-0 wow  animate__animated animate__fadeInLeft" data-wow-delay="0.6s">
 
             <div class="card-body">
               <h5 class="card-title text-muted text-uppercase text-center">Abecedario
@@ -123,7 +129,7 @@ Algunos estudios han sugerido que aquellos niños que no forman las letras debid
         </div>
         <!-- Plus Tier -->
         <div class="col-lg-4">
-          <div class="card mb-5 mb-lg-0">
+          <div class="card mb-5 mb-lg-0 wow  animate__animated animate__fadeIn" data-wow-delay="0.6s">
             <div class="card-body">
               <h5 class="card-title text-muted text-uppercase text-center">LOS NÚMEROS del 1 al 10 - Canciones de los números - Vídeo educativo para aprender a contar</h5>
               <iframe class="embed-responsive-item"  width="300" height="300" src="https://www.youtube.com/embed/JziMDyQd1Ds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -137,7 +143,7 @@ Algunos estudios han sugerido que aquellos niños que no forman las letras debid
         </div>
         <!-- Pro Tier -->
         <div class="col-lg-4">
-          <div class="card">
+          <div class="card wow  animate__animated animate__fadeInRight" data-wow-delay="0.6s">
             <div class="card-body">
               <h5 class="card-title text-muted text-uppercase text-center">Dinosaurios | Videos Educativos para Niños</h5>
               <iframe class="embed-responsive-item"  width="300" height="300" src="https://www.youtube.com/embed/dTgofE8nrk0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -154,7 +160,10 @@ Algunos estudios han sugerido que aquellos niños que no forman las letras debid
   </section>
 
 
-  
+  <script >
+
+new WOW().init();
+  </script>
 
 
 </body>
